@@ -60,7 +60,7 @@ for i in range(0, 6):
     df_arr.append(pd.DataFrame(columns=["Query", "Precision", "Recall", "F-measure"]))
 df_names = ["Bin-Euclid","Bin-Cosine","TF-Euclid", "TF-Cosine", "TFIDF-Euclid", "TFIDF-Cosine"]
 
-for i in range(0, 2):
+for i in range(0, 20):
     query = queries[i]
     corpus = ref_corpus[:]
     relevant_set = relevant_documents[i]
